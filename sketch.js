@@ -44,7 +44,7 @@ function draw() {
   fill("black")
   textSize(15)
   text("Score : "+score,20,40);
-  fill("red");
+  fill("green");
   //text(mouseX + "," + mouseY, 20, 50);
   textSize(25)
   text(" 500 ", 5, 550);
@@ -63,6 +63,7 @@ function draw() {
   if ( gameState =="end") {
     
     textSize(100);
+    fill("red")
     text("GameOver", 150, 250);
     //return
   }
